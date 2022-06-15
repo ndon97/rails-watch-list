@@ -1,5 +1,9 @@
+<div class="listinp-container">
 <h3>Create a new list</h3>
-<%= simple_form_for @list do |f| %>
-<%= f.input :name, placeholder: 'Drama' %>
-<%= f.submit class: 'btn btn-secondary' %>
-<% end %>
+  <div class ="form-inside">
+  <%= simple_form_for @list do |f| %>
+  <%= f.input :name, placeholder: 'Comedy' %>
+  <%= f.submit class: 'btn btn-outline-dark' %>
+  <% end %>
+  </div>
+</div>
