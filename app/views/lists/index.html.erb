@@ -1,4 +1,4 @@
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1542204165-65bf26472b9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80);">
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1625&q=80);">
   <div class="container">
     <h1>Customize your own lists of movies</h1>
     <%= link_to "New List", new_list_path, class: "main btn btn-outline-success" %>
@@ -13,7 +13,7 @@
   <div class="row">
     <div class="col-lg-6 mb-4">
       <div class="card-lists" style="width: 18rem;">
-      <%= cl_image_tag list.photo.key, height: 300, width: 400, class: "card-img-top" %>
+      <%= cl_image_tag list.photo.key, height: 300, width: 500, class: "card-img-top" %>
         <div class="card-body">
         <h5 class="card-title"><%= list.name %></h5>
         <%= link_to "View List", list_path(list.id), class: "btn btn-outline-primary" %>
